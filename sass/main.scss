@@ -1,9 +1,17 @@
-@import './header';
-@import './hero';
-@import './features';
-@import './pictures';
-@import './team';
-@import './client';
-@import './footer';
-@import './portfolio';
-@import './button';
+@import './utils/vars';
+@import './base/reset';
+@import './components/conteiner';
+@import './components/pictures-block';
+@import './components/titel';
+@import './components/visually-hidden';
+@import './components/modal';
+
+@import './layouts/general/header';
+@import './layouts/stydio/hero';
+@import './layouts/stydio/features';
+@import './layouts/stydio/pictures';
+@import './layouts/stydio/team';
+@import './layouts/stydio/client';
+@import './layouts/general/footer';
+@import './layouts/portfolio/portfolio';
+@import './layouts/stydio/button';
