@@ -309,7 +309,11 @@ body {
 .header-nav-link:hover, .header-nav-link:focus {
   color: var(--color-blue);
 }
-.header-nav-link .current::after {
+
+.current {
+  color: var(--color-blue);
+}
+.current::after {
   display: block;
   position: absolute;
   bottom: -33px;
@@ -319,10 +323,6 @@ body {
   content: "";
   background-color: var(--color-blue);
   border-radius: 2px;
-}
-
-.current {
-  color: var(--color-blue);
 }
 
 .header-contacts {

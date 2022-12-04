@@ -60,7 +60,12 @@
     {
        color:var(--color-blue)
     }
-    .current::after
+    
+}
+.current
+{
+    color: var(--color-blue);
+    &::after
     {
         display: block;
         position: absolute;
@@ -73,10 +78,7 @@
         border-radius: 2px;
     }
 }
-.current
-{
-    color: var(--color-blue);
-}
+
 
 .header-contacts
 {
