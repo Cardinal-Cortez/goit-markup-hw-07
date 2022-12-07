@@ -14,7 +14,7 @@
     }
 }
 
-.logo 
+.header__logo 
 {
     @extend %logo;
     margin-right: 93px;
@@ -25,22 +25,22 @@
     align-items: center;
     margin-right: auto;
 }
-.logo-web 
+.header__web 
 {
     color:var(--color-blue)
 }
-.logo-studio 
+.header__studio 
 {
     color:var(--color-black)
 }
-.header-nav
+.nav
 {
     display: flex;
     gap: 50px;
     justify-content: space-between;
 }
 
-.header-nav-link
+.nav__link
 {
     @extend %header;
     color:var(--color-black);
@@ -72,7 +72,7 @@
 }
 
 
-.header-contacts
+.contacts
 {
     margin-left: auto;
     display: flex;
@@ -80,7 +80,7 @@
     gap: 30px;
 }
 
-.header-contacts-core
+.contacts__core
 {
     @extend %header;
     color:var(--color-gray);
@@ -93,7 +93,7 @@
     }
 }
 
-.write-item
+.contacts__icon
 {
     fill:currentColor
 }

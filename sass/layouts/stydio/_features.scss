@@ -9,11 +9,11 @@
     display: flex;
     gap: 30px;
 }
-.item-features
+.item__features
 {
     flex-basis: calc((100% - 90px) / 4);
 }
-.features-item
+.features__icon
 {
     height: 120px;
     display: flex;
@@ -23,16 +23,14 @@
     border-radius: 4px;
     background-color: #F5F4FA;
 }
-.feature-title 
+.feature__title 
 {
     margin-bottom: 10px;
     @extend %header;
     text-transform: uppercase;
-    color: var(--color-black)
-    
-    
+    color: var(--color-black)      
 }
-.feature-subtitle 
+.feature__subtitle 
 {
     @extend %policy;
     color: var(--color-gray)
