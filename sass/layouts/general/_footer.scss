@@ -16,10 +16,6 @@
         text-decoration: none;
     }
 
-    &-studio
-    {
-        color: #fff;
-    }
     &-input
     {
         width: 358px;
@@ -117,11 +113,10 @@
     }
 }
 
-.logo-footer
+.logo__footer
 {
     display:inline-block;
     margin-bottom: 20px;
-    @extend %logo;
 }
 
 .doit
@@ -167,6 +162,11 @@
         {
             background-color: #2196F3;
         }
+    }
+    
+    .footer__studio
+    {
+        color: #fff;
     }
     
 

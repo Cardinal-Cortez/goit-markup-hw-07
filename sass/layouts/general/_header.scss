@@ -17,6 +17,9 @@
 .logo 
 {
     @extend %logo;
+}
+.header__logo
+{
     margin-right: 93px;
 }
 .navigation
