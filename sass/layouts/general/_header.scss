@@ -1,4 +1,4 @@
-.header-conteiner
+.header__conteiner
 {
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@
     }
 }
 
-.header__logo 
+.logo 
 {
     @extend %logo;
     margin-right: 93px;
@@ -25,11 +25,11 @@
     align-items: center;
     margin-right: auto;
 }
-.header__web 
+.logo__web 
 {
     color:var(--color-blue)
 }
-.header__studio 
+.logo__studio 
 {
     color:var(--color-black)
 }
