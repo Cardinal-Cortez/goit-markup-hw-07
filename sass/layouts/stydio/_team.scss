@@ -29,13 +29,12 @@
 }
 .team-list
 {
-    display: flex;
+    @include flexCenter(flex,null,null);
     gap: 30px;
 }
 .team-soc-list
 {
-    display: flex;
-    justify-content: center;
+    @include flexCenter(flex,center,null);
     gap: 10px;
     margin-bottom: 30px;
 }
@@ -50,9 +49,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexCenter();
     transition: background-color 250ms 
     cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,&:focus

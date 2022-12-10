@@ -2,15 +2,11 @@
 {
     padding-top: 94px;
     padding-bottom: 94px;
-    .pictures
-    {
-        padding-top: 0;
-    }
 }
 
 .pictures-list
 {
-    display: flex;
+    @include flexCenter(flex,null,null);
     gap: 30px;  
 }
 .item-pictures

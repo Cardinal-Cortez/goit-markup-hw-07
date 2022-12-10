@@ -6,7 +6,7 @@
 
 .features-list
 {
-    display: flex;
+    @include flexCenter(flex,null,null);
     gap: 30px;
 }
 .item__features
@@ -16,9 +16,7 @@
 .features__icon
 {
     height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter();
     margin-bottom: 30px;
     border-radius: 4px;
     background-color: #F5F4FA;

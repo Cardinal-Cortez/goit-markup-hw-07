@@ -1,9 +1,8 @@
 .conteiner-menu 
 {
     margin-bottom: 50px;
-    display: flex;
+    @include flexCenter(flex,center,null);
     gap: 8px;
-    justify-content: center
 }
 
 .portfolio-btn 
@@ -43,10 +42,9 @@
 
 .conteiner-portfolio
 {
-    display: flex;
+    @include flexCenter(flex,center,null);
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: center;
 }
 .conteiner-portfolio-li
 {

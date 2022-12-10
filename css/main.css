@@ -48,8 +48,6 @@ body {
 }
 
 .footer-address, .footer-contacts, .feature__subtitle, .policy-link, .policy {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7142857143;
   letter-spacing: 0.03em;
@@ -272,7 +270,7 @@ body {
   color: #2196F3;
 }
 
-.header__conteiner {
+.header--conteiner {
   display: flex;
   align-items: center;
 }
@@ -306,8 +304,8 @@ body {
 
 .nav {
   display: flex;
-  gap: 50px;
   justify-content: space-between;
+  gap: 50px;
 }
 
 .nav__link {
@@ -319,10 +317,10 @@ body {
   color: var(--color-blue);
 }
 
-.current {
+.nav__link--current {
   color: var(--color-blue);
 }
-.current::after {
+.nav__link--current::after {
   display: block;
   position: absolute;
   bottom: -33px;
@@ -401,8 +399,8 @@ body {
   font-size: 16px;
   line-height: 1.875;
   display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-white);
   border: none;
@@ -453,9 +451,6 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.section .pictures {
-  padding-top: 0;
 }
 
 .pictures-list {
@@ -535,8 +530,8 @@ body {
   height: 100%;
   border-radius: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover, .team-soc-link:focus {
@@ -572,8 +567,8 @@ body {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-soc-link:hover, .client-soc-link:focus {
@@ -711,8 +706,8 @@ body {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .doit-soc-link:hover, .doit-soc-link:focus {
@@ -726,8 +721,8 @@ body {
 .conteiner-menu {
   margin-bottom: 50px;
   display: flex;
-  gap: 8px;
   justify-content: center;
+  gap: 8px;
 }
 
 .portfolio-btn {
@@ -757,9 +752,9 @@ body {
 
 .conteiner-portfolio {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: center;
 }
 
 .conteiner-portfolio-li {

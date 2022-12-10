@@ -1,7 +1,6 @@
-.header__conteiner
+.header--conteiner
 {
-    display: flex;
-    align-items: center;
+    @include flexCenter(flex,null,center);
 }
 .header 
 {
@@ -24,8 +23,7 @@
 }
 .navigation
 {
-    display: flex;
-    align-items: center;
+    @include flexCenter(flex,null,center);
     margin-right: auto;
 }
 .logo__web 
@@ -38,9 +36,8 @@
 }
 .nav
 {
-    display: flex;
+    @include flexCenter(flex,space-between,null);
     gap: 50px;
-    justify-content: space-between;
 }
 
 .nav__link
@@ -57,12 +54,12 @@
     }
     
 }
-.current
+.nav__link--current
 {
     color: var(--color-blue);
     &::after
     {
-        display: block;
+        @include flexCenter(block,null,null);
         position: absolute;
         bottom: -33px;
         left: 0;
@@ -78,8 +75,7 @@
 .contacts
 {
     margin-left: auto;
-    display: flex;
-    align-items: center;
+    @include flexCenter(flex,null,center);
     gap: 30px;
 }
 
@@ -103,8 +99,7 @@
 
 .write
 {
-    display: flex;
-    align-items: center;
+    @include flexCenter(flex,null,center);
     gap: 10px;
     &:hover
     {
